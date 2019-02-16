@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>I Willing Come Back</title>
+
+	<!---------Bootstrap Setup------------>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+	
+	<!---------Fonts.google.com------------>
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i,900i" rel="stylesheet">
+
+	<!---------My Css - Js------------>
+	<link rel="stylesheet" href="style.css">
+	<script src="js.js" type="text/javascript" charset="utf-8" async defer></script>
+	
+	<!---------Font-awesome Bootstrap------------>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" >
+	
+	<!---------Fancybox-3 LIGHT-BOX----------->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+	
+
+</head>
+<body>
+
+	<!------------ TOP BAR --------------->
+	<div class="container-fluid top-bar">
+		<div class="container"> 
+			<!------------ BAR --------------->
+			<div class="row bar">
+				<div class="col-12 col-sm-12 col-md-4 col-lg-6 col-xl-6">
+					<ul class="nav">
+					  <li class="nav-item">
+					    <a class="nav-link" href="#"><i class="fas fa-phone"></i></a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="#">Call +001 555 801</a>
+					  </li>
+					</ul>
+				</div>
+				<div class="col-12 col-sm-12 col-md-8 col-lg-6 col-xl-6">
+					<ul class="nav justify-content-end">
+					  <li class="nav-item">
+					    <a class="nav-link" href="#">Welcome MSG!</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="#">my account</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="#">my whistlist</a>
+					  </li>
+					  <li class="nav-item no-boder">
+					    <a class="nav-link" href="#">login</a>
+					  </li>
+					  
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!------------ TOP BAR 2 --------------->
+	<div class="container-fluid top-bar-2">
+		<div class="container">
+		<!------------ Menu - Title --------------->
+			<div class="row menu-title d-flex align-items-center">
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+					<ul class="nav bar-menu">
+					  <li class="nav-item">
+					    <a class="nav-link" href="#">Home</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="#">Gallery</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="#">Categories</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="#">Page</a>
+					  </li>
+					</ul>
+				</div>
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center bar-logo">
+					<a href="#"><img src="images/logo.png" alt=""></a> 
+				</div>
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 bar-title">
+					<ul class="nav justify-content-end align-items-center">
+					  <li class="a-nav nav-item d-flex align-items-center justify-content-center">
+					    <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
+					  </li>
+					  <li class="a-nav nav-item d-flex align-items-center justify-content-center">
+					    <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+					  </li>
+					  <li class="a-nav nav-item d-flex align-items-center justify-content-center">
+					    <a class="nav-link" href="#"><i class="fab fa-pinterest-p"></i></a>
+					  </li>
+					  <li class="a-nav nav-item d-flex align-items-center justify-content-center">
+					    <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+					  </li>
+
+					  <li class="nav-item dropdown d-flex ">
+					    <div class="dropdown">
+						  <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+						    RUPIAH
+						  </button>
+						  <div class="dropdown-menu">
+						    <a class="dropdown-item" href="#">Link 1</a>
+						    <a class="dropdown-item" href="#">Link 2</a>
+						    <a class="dropdown-item" href="#">Link 3</a>
+						  </div>
+						</div>
+					  </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!------------ Slide-Carouseo --------------->
+	<div class="container-fluid slider">
+		<div id="demo" class="carousel slide" data-ride="carousel">
+		  <ul class="carousel-indicators">
+		    <li data-target="#demo" data-slide-to="0" class="active"></li>
+		    <li data-target="#demo" data-slide-to="1"></li>
+		    <li data-target="#demo" data-slide-to="2"></li>
+		  </ul>
+		  <div class="carousel-inner">
+
+		    <div class="carousel-item active">
+		      <img src="images/slide1.jpg" alt="Los Angeles" width="100%" height="100%">
+		      <div class="carousel-caption">
+				<div class="cont-sale d-flex justify-content-center align-items-center">
+					<div class="sale">
+			        	<p class="p-mid">MID-SEASON</p>
+			        	<p class="p-sale">SALE</p>
+			        	<div class="div-up">
+			        		<p class="p-up">UP TO</p>
+			        	</div>
+			        	<p class="p-50">50% OFF</p>
+			        </div>
+				</div>
+		        <button class="btn">SHOP NOW</button> 
+		      </div>   
+		    </div>
+		    <div class="carousel-item">
+		      <img src="images/slide1.jpg" alt="Los Angeles" width="100%" height="100%">
+		      <div class="carousel-caption">
+				<div class="cont-sale d-flex justify-content-center align-items-center">
+					<div class="sale">
+			        	<p class="p-mid">MID-SEASON</p>
+			        	<p class="p-sale">SALE</p>
+			        	<div class="div-up">
+			        		<p class="p-up">UP TO</p>
+			        	</div>
+			        	<p class="p-50">50% OFF</p>
+			        </div>
+				</div>
+		        <button class="btn">SHOP NOW</button> 
+		      </div>   
+		    </div>
+		    <div class="carousel-item">
+			      <img src="images/slide1.jpg" alt="Los Angeles" width="100%" height="100%">
+			      <div class="carousel-caption">
+					<div class="cont-sale d-flex justify-content-center align-items-center">
+						<div class="sale">
+				        	<p class="p-mid">MID-SEASON</p>
+				        	<p class="p-sale">SALE</p>
+				        	<div class="div-up">
+				        		<p class="p-up">UP TO</p>
+				        	</div>
+				        	<p class="p-50">50% OFF</p>
+				        </div>
+					</div>
+			        <button class="btn">SHOP NOW</button> 
+			      </div>   
+		    </div>
+
+		  </div>
+		  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+		    <span class="carousel-control-prev-icon"></span>
+		  </a>
+		  <a class="carousel-control-next" href="#demo" data-slide="next">
+		    <span class="carousel-control-next-icon"></span>
+		  </a>
+		</div>
+	</div>
+
+	<!------------ Support--------------->
+	<div class="container-flui support sec-tion">
+		<div class="container">
+			<div class="row ">
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-between support-wraps">	
+					<!------ Grou-3-------->
+					<div class="xxx">
+						<div class="group group-3 d-flex justify-content-center align-items-center">
+							<div class="icon">
+								<i class="fas fa-plane"></i>
+							</div>
+							<div class="content">
+								<h2>free shipping</h2>
+								<p>In Order Min $200</p>
+							</div>
+						</div>
+					</div>
+					<!------ Grou-2-------->
+					<div class="xxx">
+						<div class="group group-2 d-flex justify-content-center align-items-center">
+							<div class="icon">
+								<i class="far fa-clock"></i>
+							</div>
+							<div class="content">
+								<h2>30-DAYS RETURNS</h2>
+								<p>Money Back  Guarantee</p>
+							</div>
+						</div>
+					</div>
+					<!------ Grou-1-------->
+					<div class="xxx">
+						<div class="group group-1 d-flex justify-content-center align-items-center">
+							<div class="icon">
+								<i class="far fa-life-ring"></i>
+							</div>
+							<div class="content">
+								<h2>24/7 SUPPORT</h2>
+								<p>Lifestyme Support</p>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+
+	<!------------ fEATURED--------------->
+	<div class="container-fluid featured sec-tion"> 
+		<div class="container">
+			<div class="row title-row">
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 e-title-line">
+					<hr>
+				</div>
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+					<div class="e-title">
+						<p>HandPicked</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 e-title-line">
+					<hr>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 featured-img"> 
+					<div class="e-col-1"> 
+						<div class="e-f-img">
+
+							<img alt="" src="images/hand1.jpg" />
+							
+							<div class="over-div">
+								<div class="over-content">
+									<button type="button" class="over-btn btn">shop now</button>
+								</div>
+								<div class="over-plus" >
+									<a data-fancybox="gallery" href="images/hand1.jpg">
+										<img src="images/plus.png" alt="">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="e-f-img">
+							<img src="images/hand2.jpg" alt="">
+							<div class="over-div">
+								<div class="over-content">
+									<button type="button" class="over-btn btn">shop now</button>
+								</div>
+								<div class="over-plus">
+									<a data-fancybox="gallery" href="images/hand2.jpg">
+										<img src="images/plus.png" alt="">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="e-col-2"> 
+						<div class="e-f-img">
+							<img src="images/hand3.jpg" alt="">
+							<div class="over-div">
+								<div class="over-content">
+									<button type="button" class="over-btn btn">shop now</button>
+								</div>
+								<div class="over-plus">
+									<a data-fancybox="gallery" href="images/hand3.jpg">
+										<img src="images/plus.png" alt="">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="e-col-3 mr-0"> 
+						<div class="e-f-img">
+							<img src="images/hand4.jpg" alt="">
+							<div class="over-div">
+								<div class="over-content">
+									<button type="button" class="over-btn btn">shop now</button>
+								</div>
+								<div class="over-plus">
+									<a data-fancybox="gallery" href="images/hand4.jpg">
+										<img src="images/plus.png" alt="">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="e-f-img">
+							<img src="images/hand5.jpg" alt="">
+							<div class="over-div">
+								<div class="over-content">
+									<button type="button" class="over-btn btn">shop now</button>
+								</div>
+								<div class="over-plus">
+									<a data-fancybox="gallery" href="images/hand5.jpg">
+										<img src="images/plus.png" alt="">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+
+	<!------------ RECENT --------------->
+	<div class="container-fluid recent sec-tion">
+		<div class="container">
+
+			<div class="row title-row">
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 e-title-line">
+					<hr>
+				</div>
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+					<div class="e-title">
+						<p>Summer collection</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 e-title-line">
+					<hr>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-12">
+					<div class="recent-wrap">
+						<div class="row1">
+							<div class="re-container">
+								<div class="re-img">
+									<img src="images/re6.jpg" alt="">
+								</div>
+								<div class="re-content">
+									<div class="re-c-btn"><button type="button" class="btn">+ add to cart</button></div>
+									<div class="re-c-sale">20 <small>%</small> </div>
+								</div>
+							</div>
+							<div class="re-container">
+								<div class="re-img">
+									<img src="images/re2.jpg" alt="">
+								</div>
+								<div class="re-content">
+									<div class="re-c-btn"><button type="button" class="btn">+ add to cart</button></div>
+								</div>
+							</div>
+							<div class="re-container">
+								<div class="re-img">
+									<img src="images/re3.jpg" alt="">
+								</div>
+								<div class="re-content">
+									<div class="re-c-btn"><button type="button" class="btn">+ add to cart</button></div>
+								</div>
+							</div>
+							<div class="re-container ">
+								<div class="re-img">
+									<img src="images/re1.jpg" alt="">
+								</div>
+								<div class="re-content">
+									<div class="re-c-btn"><button type="button" class="btn">+ add to cart</button></div>
+									<div class="re-c-sale">40 <small>%</small> </div> 
+								</div>
+							</div>
+						</div>
+						<div class="row1">
+							<div class="re-container">
+								<div class="re-img">
+									<img src="images/re5.jpg" alt="">
+								</div>
+								<div class="re-content">
+									<div class="re-c-btn"><button type="button" class="btn">+ add to cart</button></div>
+									<div class="re-c-sale">20 <small>%</small> </div>
+								</div>
+							</div>
+							<div class="re-container">
+								<div class="re-img">
+									<img src="images/re6.jpg" alt="">
+								</div>
+								<div class="re-content">
+									<div class="re-c-btn"><button type="button" class="btn">+ add to cart</button></div>
+								</div>
+							</div>
+							<div class="re-container">
+								<div class="re-img">
+									<img src="images/re7.jpg" alt="">
+								</div>
+								<div class="re-content">
+									<div class="re-c-btn"><button type="button" class="btn">+ add to cart</button></div>
+								</div>
+							</div>
+							<div class="re-container ">
+								<div class="re-img">
+									<img src="images/re8.jpg" alt="">
+								</div>
+								<div class="re-content">
+									<div class="re-c-btn"><button type="button" class="btn">+ add to cart</button></div>
+									<div class="re-c-sale">50 <small>%</small> </div> 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!------------ BRAND --------------->
+	<div class="container-fluid brand sec-tion">
+		<div class="container">
+			<div class="row title-row">
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 e-title-line">
+					<hr>
+				</div>
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+					<div class="e-title">
+						<p>Our Brand</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 e-title-line">
+					<hr>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-12">
+					<div class="brand-wraps">
+						<div class="b-img">
+							<img src="images/b1.png" alt="" width="100%">
+						</div>
+						<div class="b-img">
+							<img src="images/b2.png" alt="" width="100%">
+						</div>
+						<div class="b-img">
+							<img src="images/b3.png" alt="" width="100%">
+						</div>
+						<div class="b-img">
+							<img src="images/b5.png" alt="" width="100%">
+						</div>
+						<div class="b-img">
+							<img src="images/b6.png" alt="" width="100%">
+						</div>
+						<div class="b-img">
+							<img src="images/b7.png" alt="" width="100%">
+						</div>
+						
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!------------ TESTIMONIAL --------------->
+	<div class="container-fluid testimonial sec-tion">
+		<div class="container">
+			<div class="row title-row">
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 e-title-line">
+					<hr>
+				</div>
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+					<div class="e-title">
+						<p>Our Brand</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 e-title-line">
+					<hr>
+				</div>
+			</div>
+		</div>
+
+		<div class="row testi-wraps">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+						<div class="testi-container">
+							<div class="cus-img">
+								<img src="images/cus1.png" alt="">
+							</div>
+							<div class="cus-says">
+								<div class="text">
+									Sed ut perspiciatis <br>
+									unde omnis iste natus error sit <br>
+									voluptatem accusantium doloremque 
+								</div>
+								<h3 class="name">Sandra Dewi</h3>
+								<div class="job">FASHION STYLISH</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+						<div class="testi-container">
+							<div style="order: 2" class="cus-img">
+								<img src="images/cus2.png" alt="">
+							</div>
+							<div style="order: 1" class="cus-says text-right">
+								<div class="text " >
+									Sed ut perspiciatis <br>
+									unde omnis iste natus error sit <br>
+									voluptatem accusantium doloremque 
+								</div>
+								<h3 class="name">Shaheer Sheikh</h3>
+								<div class="job">DESIGNER</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!------------ FOOTER --------------->
+	<div class="container-fluid footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+					<div class="f-menu">
+						<h3>
+							shops
+						</h3>
+						<ul>
+							<li><a href="#">New In</a></li>
+							<li><a href="#">Women</a></li>
+							<li><a href="#">Men</a></li>
+							<li><a href="#">Shoes</a></li>
+							<li><a href="#">Bags & Accessories</a></li>
+							<li><a href="#">Top Brads</a></li>
+							<li><a href="#">Sales & Special Offers</a></li>
+							<li><a href="#">Lookbook</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+					<div class="f-menu">
+						<h3>
+							information
+						</h3>
+						<ul>
+							<li><a href="#">about us</a></li>
+							<li><a href="#">customer services</a></li>
+							<li><a href="#">new collection</a></li>
+							<li><a href="#">best seller</a></li>
+							<li><a href="#">manufacturers</a></li>
+							<li><a href="#">privacy policy</a></li>
+							<li><a href="#">team & condition</a></li>
+							<li><a href="#">blog</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+					<div class="f-menu">
+						<h3>
+							customer service
+						</h3>
+						<ul>
+							<li><a href="#">Search Terms</a></li>
+							<li><a href="#">Advanced Search</a></li>
+							<li><a href="#">Orders and Returns</a></li>
+							<li><a href="#">Contact Us</a></li>
+							<li><a href="#">RSS</a></li>
+							<li><a href="#">Help & FAQs</a></li>
+							<li><a href="#">Consultant</a></li>
+							<li><a href="#">Store Locations</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+					<div class="f-menu menu-6">
+						<h3>
+							STAY CONNECTED
+						</h3>
+						<div class="socials">
+							<div class="icon-s">
+								<i class="fab fa-facebook-f"></i>
+							</div>
+							<div class="icon-s">
+								<i class="fab fa-twitter"></i>
+							</div>
+							<div class="icon-s">
+								<i class="fab fa-instagram"></i>
+							</div>
+							<div class="icon-s">
+								<i class="fab fa-pinterest"></i>
+							</div>
+							<div class="icon-s">
+								<i class="fas fa-rss-square"></i>
+							</div>
+						</div>
+						<div class="subcribe">
+							SUBSCRIBE   <i>in</i>  OUR  NEWS  LETTER
+						</div>
+						<div class="s-form">
+							<form>
+							    <div class="input-group mb-3 input-group-lg">
+								    <input type="text" class="form-control" placeholder="Enter Your Email Address">
+								    <div class="input-group-prepend">
+								      <a href="#" class="input-group-text">SUBSCRIBE</a>
+								    </div>
+							    </div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row arrow">
+				<div class="line"></div>
+				<div class="arow-wraps">
+					<div class="r1">
+						<div class="text">
+							© 2015  Shopia  Fashion Store Shopify. <br>
+							All Rights Reserved. Ecommerce Software by Shopify. <br>
+							Designed by  MoccaLabs.com
+						</div>
+						<div class="a-card">
+							<i class="fab fa-cc-visa"></i>
+							<i class="fab fa-cc-mastercard"></i>
+							<i class="fab fa-cc-amex"></i>
+							<i class="fab fa-cc-discover"></i>
+						</div>
+					</div>
+					<div class="r2">
+						<button id="gotop" class="btn"> <i class="fas fa-arrow-up"></i> </button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
